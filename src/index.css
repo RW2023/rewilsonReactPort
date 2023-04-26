@@ -1,0 +1,29 @@
+:root {
+  --background: #0D1B1E;
+  --text: #b6c2d9;
+  --accent: #828489;
+  --effect: #4d7ea8;
+
+}
+
+/* CSS Reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* End of CSS Reset */  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

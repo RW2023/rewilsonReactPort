@@ -1,0 +1,104 @@
+:root {
+    --background: #0D1B1E;
+    --text: #b6c2d9;
+    --accent: #828489;
+    --effect: #4d7ea8;
+
+}
+
+/* CSS Reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* End of CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+#readMore {
+    width: 8rem;
+    height: 2rem;
+    left: calc(50% - 562px/2 + 679.5px);
+    top: calc(50% - 91px/2 - 369px);
+
+    border: 1px solid var(--background);
+    border-radius: 5px;
+    color: var(--background);
+    background-color: var(--effect);
+}
+
+/* Default styles */
+img {
+    width: auto;
+    height: 348px;
+    margin: auto;
+    background: #D9D9D9;
+    box-shadow: 5px 7px 4px rgba(130, 132, 137, 0.49);
+    border-radius: 39px;
+}
+
+/* Styles for screens with a maximum width of 767px */
+@media only screen and (max-width: 767px) {
+    img {
+        height: 200px;
+        /* Decrease the height for smaller screens */
+        border-radius: 20px;
+        /* Decrease the border radius for smaller screens */
+    }
+}
+
+#readMore {
+
+        display: block;
+        width: 8rem;
+        height: 2rem;
+        padding: 8px 12px;
+        border: 1px solid var(--background);
+        border-radius: 5px;
+        background-color: var(--effect);
+        color: var(--background);
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+#readMore:hover {
+    background-color: var(--text);
+    color: var(--background);
+    opacity: 0.95;
+    text-decoration: none;
+}
+
+button {
+    text-decoration: none;
+}
+
+/* Default styles */
+.card_image {
+   
+}
+
+/* Styles for screens with a maximum width of 767px */
+@media only screen and (max-width: 767px) {
+    .card_image {
+        border-radius: 20px;
+        /* Decrease the border radius for smaller screens */
+        
+    }
+}
+
+.card_content 
+project{
+    width: 100%;
+        height: auto;
+        margin: auto;
+        background: none;
+        box-shadow: 5px 7px 4px rgba(130, 132, 137, 0.49);
+        border-radius: 39px;
+}
