@@ -8,20 +8,20 @@ import femImage from './FEM.png';
 class Projects extends React.Component {
     render() {
         return (
-            <div className='project_container' id='projects'>
+            <div className='project_container container' id='projects'>
                 <h2>Projects</h2>
                 <ul className="cards">
                     <li className="cards_item">
                         <div className="card">
                           {/* project 1 Start. Will likely end up splitting these into own component */}
-                                <a href="https://rw2023qrcode.netlify.app/" target='_blank'>
+                            <a href="https://rw2023qrcode.netlify.app/" target='_blank' rel="noreferrer">
                                 <div className="card_image  img-fluid"><img src={qrcodeImage} alt="QR Code Screenshot" /></div>
                                 </a>
                            
 
                             <div className="card_content project">
                                 <h3 className="card_title">Project 1</h3>
-                                <a href="https://github.com/RW2023/qrCode" target='_blank'>
+                                <a href="https://github.com/RW2023/qrCode" target='_blank' rel="noreferrer">
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
                                 <p className="card_text">QrCode Challenge from Front End Mentor</p>
@@ -30,12 +30,12 @@ class Projects extends React.Component {
                             </div>
 
                             {/* Project 2 Start */}
-                            <a href="https://femtipcalculator2023.netlify.app/" target='_blank'>
+                            <a href="https://femtipcalculator2023.netlify.app/" target='_blank' rel="noreferrer">
                                 <div className="card_image  img-fluid"><img src={tippImage} alt="Tipp Calculator Screenshot" /></div>
                             </a>
                             <div className="card_content project">
                                 <h3 className="card_title">Project 2</h3>
-                                <a href="https://github.com/RW2023/tip-calculator-app" target='_blank'>
+                                <a href="https://github.com/RW2023/tip-calculator-app" target='_blank' rel="noreferrer">
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
                                 <p className="card_text">Tip Calculator Challenge from Front End Mentor</p>
@@ -43,12 +43,12 @@ class Projects extends React.Component {
                                
                             </div>
                             {/* Project 2 End and Project 3 Start */}
-                            <a href="https://devopsdiscord.netlify.app/" target='_blank'>
+                            <a href="https://devopsdiscord.netlify.app/" target='_blank' rel="noreferrer">
                                 <div className="card_image  img-fluid"><img src={femImage} alt="Tipp Calculator Screenshot" /></div>
                             </a>
                             <div className="card_content project">
                                 <h3 className="card_title">Project 3</h3>
-                                <a href="https://github.com/RW2023/Dev-Ops-Community" target='_blank'>
+                                <a href="https://github.com/RW2023/Dev-Ops-Community" target='_blank' rel="noreferrer" >
                                     <button className="btn card_btn" id='readMore'>Read More</button>
                                 </a>
                                 <p className="card_text">Front End Collab Discord Community</p>
