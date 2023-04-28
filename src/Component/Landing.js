@@ -8,7 +8,7 @@ class Landing extends React.Component {
         return (
             <div id='home'>
                 <div className="intro" id="intro">Hello, I'm Ryan!</div>
-                <div className="tagline" id="tagline">All-Star Rookie | Code Junkie | Linux CL Hacker |  Junior  Dev</div>
+                <div className="tagline" id="tagline">All-Star Rookie | Code Junkie | CL Hacker |  Junior  Dev</div>
                 <div className="icons-social" id='LINKS'>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/RW2023">
                         <FontAwesomeIcon className="social-icon" icon={faGithub} title="Github" />
