@@ -1,8 +1,30 @@
+# RE. Wilson - Front End Developer Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e663312e-f4ae-42e1-9b49-cb5e54b9da60/deploy-status)](https://app.netlify.com/sites/gridpractice2023/deploys)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9dc90d53-1f13-4b14-b5a1-15599add6fdc/deploy-status)](https://app.netlify.com/sites/rw2023-react-portfolio/deploys)
+## Technologies Used
 
+To build this portfolio site, I used the following technologies:
 
+- ReactJS - for building the UI components and handling state management
+- JSX - a syntax extension for JavaScript that allows you to write HTML-like code within your React components
+- HTML - for structuring the content of the site
+- CSS - for styling the UI components and layout
+- JavaScript - for interactivity and adding functionality to the site
+- Git - for version control and collaboration with team members
+- GitHub - for hosting and deploying the site
+
+## Understanding Required
+
+To build a React portfolio site, it's essential to have a good understanding of the following:
+
+- React basics, including components, JSX, and props
+- HTML and CSS, including layout and responsive design
+- JavaScript fundamentals, including variables, functions, loops, and conditional statements
+- Git and GitHub basics, including creating repositories, committing changes, and pushing to remote branches
+- Building and deploying a website using GitHub Pages or other hosting services
+
+As a junior front-end developer, I'm continually learning and improving my skills. I'm excited to continue building projects and expanding my knowledge in the field. Thank you for visiting my portfolio site, and please feel free to reach out to me if you have any questions or feedback.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
