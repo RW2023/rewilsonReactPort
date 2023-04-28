@@ -16,7 +16,7 @@ To build this portfolio site, I used the following technologies:
 
 ## Understanding Required
 
-To build a React portfolio site, it's essential to have a good understanding of the following:
+To build a React portfolio site, it's essential I had a good understanding of the following:
 
 - React basics, including components, JSX, and props
 - HTML and CSS, including layout and responsive design
